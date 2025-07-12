@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include "stdint.h"
 
+// Come back and fix this later lmao
 #ifdef _WIN32
   #define EXPORT __declspec(dllexport)
 #else
