@@ -1,8 +1,7 @@
 # Mosaic
 
-![Static Badge](https://img.shields.io/badge/Built_in-Rust-orange?logo=rust) \
+![Static Badge](https://img.shields.io/badge/Built_in-C++-blue?logo=cplusplus) \
 ![Static Badge](https://img.shields.io/badge/License-Apache_2.0-red)
-
 
 **Mosaic** is a modern, developer-friendly 2D game engine, intended to make 2D game development smooth and easy.
 
@@ -16,17 +15,6 @@ Much like those mentioned inspirations, there isn't any dedicated suite of tools
 > Returning to this when features are functionally implemented.
 
 ## Example Script
-
-> [!NOTE]
-> **Ruby** is the default scripting language in code samples. However the logic applies across programming languages.
-
-```rb
-require 'fiddle'
-
-lib = Fiddle.dlopen('./mosaic.dll')
-init = Fiddle::Function.new(lib['mosaic_init'], [], Fiddle::TYPE_VOID)
-init.call
-```
 
 ---
 

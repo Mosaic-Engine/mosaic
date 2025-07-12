@@ -1,4 +1,6 @@
 /target
-Cargo.lock
 /.vscode
 /.vs
+/build
+
+Cargo.lock
