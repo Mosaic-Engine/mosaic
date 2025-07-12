@@ -19,9 +19,10 @@ extern "C" {
 
 // Clears screen to black, ready to draw content on
 extern "C" {
-    EXPORT void mosaic_start_frame() {
+    EXPORT void mosaic_start_frame(uint8_t red, uint8_t green, uint8_t blue) {
+        Color clear = {red, green, blue, 255};
         BeginDrawing();
-        ClearBackground(BLACK);
+        ClearBackground(clear);
     }
 }
 

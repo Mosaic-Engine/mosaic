@@ -16,7 +16,7 @@ module Mosaic
     dlload = dll_path
 
     extern 'void mosaic_init(uint32_t, uint32_t, uint32_t, const char*)'
-    extern 'void mosaic_start_frame()'
+    extern 'void mosaic_start_frame(uint8_t, uint8_t, uint8_t)'
     extern 'void mosaic_end_frame()'
     extern 'bool mosaic_should_close()'
     extern 'void mosaic_shutdown()'
